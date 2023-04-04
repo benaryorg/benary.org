@@ -1,0 +1,235 @@
+{ "me":
+	{ "name": ["Katze","cat","benaryorg","benary"]
+	, "pronoun": null
+	, "tags": ["crazy","sysadmin","developer","cat"]
+	, "personality":
+		{ "description":
+			[ "A little cat, stuck in this world, trying to make the best out of it."
+			, "I collect knowledge and try to put it to good use. I found a lot of it already."
+			, "I am constantly trying to build everything as secure as possible."
+			]
+		, "life goal": "find someone to share the joys of life with"
+		, "behaviour":
+			{ "rules":
+				{ "cat rules":
+					[ "grooming can be simple"
+					, "be light on your feet"
+					, "say No to strangers"
+					, "own your laziness"
+					, "love your body"
+					, "don't try so hard"
+					, "know when to treat yourself"
+					]
+				}
+			}
+		}
+	, "occupations":
+		[
+			{ "position": "Intern"
+			, "institution": "DVT – Datenverarbeitung Tirol"
+			, "time":
+				{ "from": "2015-07-01"
+				, "to": "2015-07-31"
+				}
+			},
+			{ "position": "Systems Engineer – Linux"
+			, "institution": "SysEleven GmbH"
+			, "time":
+				{ "from": "2016-12-01"
+				, "to": "2020-10-30"
+				}
+			},
+			{ "position": "Linux and Network Engineer"
+			, "institution": "INWX GmbH & Co. KG"
+			, "time":
+				{ "from": "2021-07-15"
+				, "to": "2021-12-14"
+				}
+			},
+			{ "position": "Systems Administrator"
+			, "institution": "Menzel IT GmbH"
+			, "time":
+				{ "from": "2021-12-15"
+				}
+			}
+		]
+	, "location":
+		{ "country": "Germany"
+		, "city": "Berlin"
+		}
+	, "education":
+		{ "school":
+			{ "last":
+				{ "type": "HTL"
+				, "specialisation": "Information Technology"
+				, "years of service": 4
+				, "graduation": false
+				}
+			}
+		, "certifications":
+			[
+				{ "name": "LPIC-1"
+				, "result":
+					{ "passed": true
+					}
+				},
+				{ "name": "BEC Vantage"
+				, "result":
+					{ "passed": true
+					, "grade": "A"
+					}
+				}
+			]
+		}
+	}
+
+, "interests":
+	{ "tech":
+		{ "languages":
+			{ "proficient":
+				[ "Rust"
+				, "C"
+				, "shell"
+				, "Markdown"
+				, "SQL"
+				, "jq"
+				, "make"
+				, "pf"
+				, "Java"
+				, "Python"
+				, "JavaScript"
+				, "Brainfuck"
+				, "XML"
+				, "Puppet"
+				]
+			, "rusty":
+				[ "Assembly"
+				, "Python"
+				, "Haskell"
+				, "QML"
+				, "LaTeX"
+				, "HTML"
+				, "C++"
+				]
+			, "basics":
+				[ "Perl"
+				, "PHP"
+				, "Lua"
+				]
+			}
+		, "environment":
+			{ "platform":
+				{ "operating systems":
+					[ "GNU/Linux"
+					, "OpenBSD"
+					, "Dragonfly BSD"
+					, "FreeBSD"
+					]
+				, "architecture": "x86_64"
+				}
+			, "ide": "vim"
+			, "tools":
+				{ "debugging":
+					[ "curl"
+					, "mtr"
+					, "nmap"
+					, "traceroute"
+					, "gdb"
+					, "openssl"
+					, "netcat"
+					, "socat"
+					, "htop"
+					, "nmon"
+					, "iftop"
+					, "iotop"
+					]
+				, "operational":
+					[ "nginx"
+					, "Apache HTTPD"
+					, "pf"
+					, "OpenSSH"
+					, "LXD"
+					, "cgroups"
+					, "Linux"
+					, "SSL/TLS"
+					, "git"
+					, "mtail"
+					, "IPv6"
+					]
+				, "data":
+					[ "jq"
+					, "sqlite"
+					, "grep"
+					, "awk"
+					, "perl"
+					, "pandoc"
+					]
+				, "convenience":
+					[ "coreutils"
+					, "moreutils"
+					, "graphviz"
+					, "ffmpeg"
+					]
+				}
+			, "browser": "firefox"
+			, "desktop": "awesome-wm"
+			}
+		, "focus":
+			[ "security"
+			, "scalability"
+			, "stability"
+			, "ipv6"
+			]
+		}
+	, "music":
+		{ "genres":
+			[ "Rock"
+			, "Hard Rock"
+			, "Metal"
+			, "Heavy Metal"
+			, "soundtracks"
+			]
+		, "bands":
+			[ "AC/DC"
+			, "Kiss"
+			, "AWOLNATION"
+			, "Harry Callaghan"
+			, "Ozzy Osbourne"
+			, "Rammstein"
+			]
+		}
+	, "games":
+		[ "NieR"
+		, "Stray"
+		, "Portal"
+		, "Cyberpunk 2077"
+		, "Brütal Legend"
+		, "BattleBlock Theater"
+		, "Far Cry 4"
+		, "The Stanley Parable"
+		, "Antichamber"
+		, "FTL: Faster Than Light"
+		, "Saints Row"
+		]
+	}
+
+, "contact":
+	[ "mailto:binary@benary.org"
+	, "github://benaryorg"
+	, "mastodon://@benaryorg@catcatnya.com"
+	, "xmpp://binary@benary.org"
+	, "discord://benaryorg#3554"
+	, "steam://benaryorg"
+	, "stackoverflow://benaryorg"
+	, "twitch://benaryorg"
+	, "twitter://benaryorg"
+	]
+
+, "recursion": "https://benary.org"
+
+, "signature":
+	{ "eddsa": "666854374A5D88437FA46B447A06724E5B00E546"
+	, "rsa": "D0073D31AB13D7F8"
+	}
+}
+
