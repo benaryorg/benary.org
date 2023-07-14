@@ -29,5 +29,6 @@ clean:
 install: website
 	install -v -D -m644 index.json $(PREFIX)/share/benaryorg-website/www/index.json
 	install -v -D -m644 evil $(PREFIX)/share/benaryorg-website/www/evil
+	install -v -D -m644 robots.txt $(PREFIX)/share/benaryorg-website/www/robots.txt
 	(cd openpgpkey/$(SITE)/ && find . -type f -exec install -v -D -m644 {} $(PREFIX)/share/benaryorg-website/www/.well-known/openpgpkey/{} ";")
 .PHONY: install
