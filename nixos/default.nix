@@ -49,11 +49,24 @@
                   more_set_headers 'access-control-allow-origin: *';
                 '';
               };
+              evilLocation =
+              {
+                tryFiles = "/evil =404";
+                extraConfig =
+                ''
+                  more_set_headers 'content-length: 941';
+                  more_set_headers 'content-encoding: gzip, gzip';
+                  more_set_headers 'content-type: application/json';
+                '';
+              };
             in
               {
                 "= /" = jsonLocation;
                 "= /index.json" = jsonLocation;
-                "/" = {};
+                "= /robots.txt" = {};
+                "= /favicon.ico" = {};
+                "/.well-known" = {};
+                "/" = evilLocation;
               };
         };
       };
