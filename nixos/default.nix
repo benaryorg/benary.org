@@ -47,6 +47,7 @@
                 ''
                   more_set_headers 'content-type: application/json';
                   more_set_headers 'access-control-allow-origin: *';
+                  more_set_headers 'link: <https://catcatnya.com/@benaryorg>; rel="me", <https://en.pronouns.page/@benaryorg>; rel="me"';
                 '';
               };
               evilLocation =
