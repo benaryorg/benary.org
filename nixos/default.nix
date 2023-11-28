@@ -1,7 +1,7 @@
 { callPackage
 , lib
 , config
-, benaryorg-website
+, pkgs
 , ...
 }:
 
@@ -24,6 +24,7 @@
         The hostname under which the site should be available.
       '';
     };
+    package = lib.mkPackageOption pkgs "benaryorg-website" {};
   };
   config =
     let
@@ -35,7 +36,7 @@
         services.nginx.virtualHosts.${cfg.hostName} =
         {
           forceSSL = true;
-          root = "${benaryorg-website.packages.x86_64-linux.default}/share/benaryorg-website/www/";
+          root = "${cfg.package}/share/benaryorg-website/www/";
           useACMEHost = lib.mkDefault cfg.hostName;
 
           locations =

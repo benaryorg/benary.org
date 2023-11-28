@@ -11,6 +11,14 @@
         benaryorg-website = import ./nixos;
         default = benaryorg-website;
       };
+      overlays = rec
+      {
+        benaryorg-website = final: prev:
+        {
+          benaryorg-website = prev.callPackage ./benaryorg-website.nix {};
+        };
+        default = benaryorg-website;
+      };
     } // flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
